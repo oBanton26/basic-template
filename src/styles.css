@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2vw;
+    background-color: rgb(147, 184, 253);
+    height: 100vh;
+}
+
+h1 {
+    margin: 2vh;
+    font-size: 2rem;
+}
+
+#todo-list-container {
+    background-color: whitesmoke;
+    height: 85vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    display: flex;
+    gap: 10px;
+}
+
+.todo {
+    margin: 0.5rem;
+    padding: 0.4rem;
+    background-color: blanchedalmond;
+    width: 260px;
+}
+
+.list {
+    border: 1px solid black;
+    border-radius: 2vh;
+    height: fit-content;
+}
+
+.list-name {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.new-btn {
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.new-btn:hover {
+    background-color: rgb(224, 220, 220);
+}
